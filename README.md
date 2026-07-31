@@ -72,9 +72,9 @@ To prevent artificial performance inflation and ensure model validity in real-wo
 ├── data/
 │   └── youtube_channel_data.csv    # Raw analytics dataset
 ├── notebooks/
-│   └── YouTube_Revenue_Analysis.ipynb # Main end-to-end Python notebook
+│   └── my28thproject.ipynb         # Main end-to-end Python notebook
 ├── models/
-│   └── youtube_revenue_predictor.pkl  # Trained Random Forest model artifact
+│   └── youtube_channel_report.pkl  # Trained Random Forest model artifact
 ├── README.md                       # Documentation & Internship Summary
 └── requirements.txt                # Dependencies and required libraries
 ```
@@ -86,7 +86,7 @@ To prevent artificial performance inflation and ensure model validity in real-wo
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/your-username/youtube-revenue-analytics.git
-   cd youtube-revenue-analytics
+   cd YouTube-revenue-analytics
    ```
 
 2. **Set Up Virtual Environment**:
