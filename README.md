@@ -1,5 +1,4 @@
 # YouTube Channel Performance & Revenue Analytics
-
 An end-to-end data analytics and predictive machine learning project built to analyze YouTube channel performance metrics, compute key audience engagement KPIs, and accurately predict estimated video revenue while avoiding target leakage.
 
 ---
@@ -55,12 +54,12 @@ To prevent artificial performance inflation and ensure model validity in real-wo
 - **Evaluation Metrics**:
   - **Mean Squared Error (MSE)**
   - **R-squared ($R^2$) Score**
-- **Artifact Export**: Model persisted as `youtube_revenue_predictor.pkl` via `joblib` for future deployment pipelines.
+  - **Artifact Export**: Model persisted as `youtube_revenue_predictor.pkl` via `joblib` for future deployment pipelines.
 
 ---
 
 ## 💡 Key Insights & Findings
-1. **Views & Watch Time Drive Revenue**: Views remain the single highest contributor to estimated revenue, but total watch duration scales monetization exponentially due to mid-roll ad placements.
+1. **Views & Watch Time Drive Revenue**: Views remain the single highest contributor to estimated revenue, but total watch duration scales monetization exponentially due to mid-roll ad      placements.
 2. **Engagement Amplifies Distribution**: High engagement rate strongly correlates with higher organic view reach, indirectly driving higher overall revenue.
 3. **Outlier Impact**: A small subset of viral long-form videos accounts for a disproportionately large share of total channel revenue.
 
@@ -76,8 +75,7 @@ To prevent artificial performance inflation and ensure model validity in real-wo
 ├── models/
 │   └── youtube_channel_report.pkl  # Trained Random Forest model artifact
 ├── README.md                       # Documentation & Internship Summary
-└── requirements.txt                # Dependencies and required libraries
-```
+
 
 ---
 
